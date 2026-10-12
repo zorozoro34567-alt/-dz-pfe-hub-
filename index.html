@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة مذكرات التخرج - DZ PFE Hub</title>
+    <style>
+        * { box-sizing: border-box; font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 0; }
+        body { background-color: #f8f9fa; color: #333; line-height: 1.6; }
+        header { background: #1e293b; color: white; padding: 2rem 1rem; text-align: center; }
+        header h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+        header p { opacity: 0.8; font-size: 0.95rem; }
+        
+        .container { max-width: 800px; margin: 20px auto; padding: 0 15px; }
+        
+        .search-box { display: flex; gap: 10px; margin-bottom: 25px; }
+        .search-box input { flex: 1; padding: 12px 15px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 1rem; outline: none; }
+        
+        .section-title { margin-bottom: 15px; color: #0f172a; font-size: 1.2rem; }
+        
+        .cards-list { display: grid; gap: 15px; }
+        .card { background: white; padding: 20px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.02); text-align: right; }
+        .card h3 { color: #2563eb; margin-bottom: 8px; font-size: 1.1rem; }
+        .card .meta { display: flex; gap: 15px; font-size: 0.85rem; color: #64748b; margin-bottom: 12px; }
+        .card p { font-size: 0.9rem; color: #475569; margin-bottom: 15px; }
+        
+        .btn-download { display: inline-block; background: #2563eb; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 0.85rem; font-weight: bold; }
+        .btn-download:hover { background: #1d4ed8; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>منصة مذكرات التخرج (DZ PFE Hub)</h1>
+        <p>مكتبة مخصصة لمشاركة وتحميل مذكرات التخرج الجامعية</p>
+    </header>
+
+    <div class="container">
+        <div class="search-box">
+            <input type="text" placeholder="ابحث بالتخصص، عنوان المذكرة، أو السنة...">
+        </div>
+
+        <h2 class="section-title">أحدث المذكرات المرفوعة</h2>
+
+        <div class="cards-list">
+            <!-- نموذج لمذكرة -->
+            <div class="card">
+                <h3>دراسة خصائص المواد وتطبيقاتها</h3>
+                <div class="meta">
+                    <span><strong>التخصص:</strong> علوم المادة</span>
+                    <span><strong>السنة:</strong> 2026</span>
+                </div>
+                <p>ملخص نموذج للمذكرة يستعرض أهم المحاور والتجارب المنجزة...</p>
+                <a href="#" class="btn-download">تحميل المذكرة (PDF)</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
